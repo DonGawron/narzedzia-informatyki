@@ -3,15 +3,15 @@ static String calculateBMI(double weight, double height) {
         double bmi = weight / (height * height);
 
         if (bmi < 18.5) {
-        return "Underweight";
+        return "Niedowaga";
         }
         else if (bmi < 25) {
-        return "Normal";
+        return "Norma";
         }
         else if (bmi < 30) {
-        return "Overweight";
+        return "Nadwaga";
         }
         else {
-        return "Obese";
+        return "Otyłość";
         }
         }
