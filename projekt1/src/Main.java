@@ -14,10 +14,10 @@ class Main {
         operator = input.next().charAt(0);
 
         // ask users to enter numbers
-        System.out.println("Wpisz pierwszą liczbe");
+        System.out.println("Enter first number");
         number1 = input.nextDouble();
 
-        System.out.println("Wpisz drugą liczbe");
+        System.out.println("Enter second number");
         number2 = input.nextDouble();
 
         switch (operator) {
